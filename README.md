@@ -1,1 +1,1 @@
-# rocketseat-dt-money-reactjs-trail
+# [Ignite] DT Money - ReactJS trail.
