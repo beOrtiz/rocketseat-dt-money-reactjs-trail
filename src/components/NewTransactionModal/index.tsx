@@ -4,11 +4,11 @@ import { Container } from './styles';
 
 interface NewTransactionModalProps {
     isOpen: boolean;
-    onRequestClone: () => void;
+    onRequestClose: () => void;
 
 }
 
-export function NewTransactionModal({ isOpen, onRequestClone: onRequestClose }: NewTransactionModalProps) {
+export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps) {
     return (
         <Modal
             isOpen={isOpen}
